@@ -12,5 +12,9 @@ public class SevenZip implements ICompressor {
 		// TODO Auto-generated method stub
 		return compressor + "data : - "+data+"-";
 	}
+	public String getCompressor()
+	{
+		return compressor;
+	}
 
 }

@@ -16,4 +16,8 @@ public class Context {
 	{
 		return compr.compress(data);
 	}
+	public ICompressor getCompressor()
+	{
+		return compr;
+	}
 }

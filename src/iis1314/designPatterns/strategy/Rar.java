@@ -11,5 +11,9 @@ public class Rar implements ICompressor {
 	public String compress(String data) {
 		return compressor + "data : - "+data+"-";
 	}
-
+	
+	public String getCompressor()
+	{
+		return compressor;
+	}
 }
